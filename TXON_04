@@ -1,0 +1,337 @@
+week 4
+CREATE YOUR PORTFOLIO WEBSITE.
+
+<!-----------------------------------------------------------------------HTML code--------------------------------------------------------------------------------------->
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukund Maheshwari = Web developer ,Programmer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/service.html">service</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="infoContainer">
+                <div class="devInfo">
+                    <div class="hello">Hi I am </div>
+                    <div class="name">Mukund Maheshwari</div>
+                    <div class="about">Student</div>
+                    <div class="buttons">
+                        <!-- <a href="/mukundresume.pdf"> -->
+                            <button>Download CV</button></a>
+                        <button>Contact Me</button>
+                    </div>
+                </div>
+                <div class="devPic"><img src="dev.png" alt="Mukund Maheshwari"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+intro.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukund Maheshwari = Web developer ,Programmer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/service.html">service</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="intro">
+               
+                    <h2>About me</h2>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, quam quibusdam optio non praesentium dolorum sunt? Sequi doloremque distinctio amet perspiciatis eos, quas quisquam eum cumque reiciendis id excepturi doloribus delectus hic reprehenderit necessitatibus.</p>
+                    <br>
+                    <h2>My Skills</h2>
+                    <div class="skillcontainer">
+                        
+                        <div class="skillItem">HTML: <div class="skill "></div></div>
+                        <div class="skillItem">CSS: <div class="skill t5"></div></div>
+                        <div class="skillItem">JavaScript: <div class="skill hundered"></div></div>
+                        <div class="skillItem">Bootstrap: <div class="skill"></div></div>
+                        <div class="skillItem">C++: <div class="skill fifty"></div></div>
+                        <div class="skillItem">C: <div class="skill t5"></div></div>
+                        
+                    
+                    
+                    
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+contact.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukund Maheshwari = Web developer ,Programmer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/service.html">service</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="contactform">
+                <h1>Contact me for work/general Enquiries</h1>
+                <form>
+                    <div class="mb-3">
+                      <label for="clientemail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientphone" class="form-label">Phone</label>
+                      <input type="phone" class="form-control" id="clientphone">
+                    </div>
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" class="form-check-input" id="isclient">
+                      <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                    </div>
+                   
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!----------------------------------------------------------------------------CSS code---------------------------------------------------------------------------------------->
+style.css
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(171, 168, 168);
+    width: 434px;
+    font-family:'Fira Sans',sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 33px 0; 
+    font-size: 20px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: rgb(255, 255, 45); */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: rgb(255, 124, 242); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro',monospace;
+
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-family:'Fira Sans',sans-serif;
+    
+    font-weight: bold;
+}
+.about{
+    font-size: 40px;
+}
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color: dodgerblue;
+font-size:12px ;
+font-weight: bold;
+margin: 0 3px;
+cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color:dodgerblue ;
+}
+.devPic img{
+    height: 58vh;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Fira',sans-serif;
+}
+.contactform h1{
+    font-family: 'Source Code Pro',monospace;
+    padding: 12px;
+    
+}
+.contactform form div{
+    padding: 10px 0;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+
+font-size: 8px;
+color: midnightblue;
+margin: 0 5px;
+}
+#form-check{
+flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0 0 0;
+}
+.btn btn-primary{
+    padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color: dodgerblue;
+font-size:12px ;
+font-weight: bold;
+margin: 0 3px;
+cursor: pointer;
+}
+.intro h2{
+font-family: 'Fira Sans',sans-serif;
+margin:12px;
+}
+.intro p{
+font-family: 'Source Code Pro',monospace;
+margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color:yellowgreen;
+}
